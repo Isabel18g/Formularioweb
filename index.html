@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario web</title>
+</head>
+<body>
+    <hr>
+    <section class="form-register">
+        <h3>Formulario para los alumnos del CBTis 229</h3>
+            <legend>Registro de alumnos</legend><br>
+            <div>
+                <label for="usuario">Nombre(s):</label>
+                <input id="usuario" type="text" name="nombre">
+            </div><br>
+            <div>
+                <label for="email">Apellidos:</label>
+                <input id="usuario" type="text" name="apellido">
+            </div><br>
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input id="email" type="email" name="email">
+            </div><br>
+            <div>
+                <label for="email">Ingrese su contraseña:</label>
+                <input id="contraseña" type="password" name="email">
+            </div><br>
+            <div>
+                <label for="especialidad">Seleccione su especialidad:</label>
+                <select name="especialidad">
+                    <option value="TE">Construcción</option>
+                    <option value="VA">Alimentos</option>
+                    <option value="BA">Contabilidad</option>
+                    <option value="ME">Electronica</option>
+                    <option value="MU">Logística</option>
+                    <option value="MI">Programación</option>
+                    <option value="" selected="selected"></option>
+                </select>
+            </div><br>
+            <div class="caja"> TALLERES:
+                <input type="checkbox" id="teatro" name="talleres" value="teatro">
+                <label for="teatro">Teatro</label><br>
+                <input type="checkbox" id="fut" name="talleres" value="fut">
+                <label for="fut">Futbol</label><br>
+                <input type="checkbox" id="basquet" name="talleres" value="basquet">
+                <label for="basquet">Basquetbol</label><br>
+                <input type="checkbox" id="voly" name="talleres" value="voly">
+                <label for="voly">Volleyball</label><br>
+                <input type="checkbox" id="rondalla" name="talleres" value="rondalla">
+                <label for="rondalla">Rondalla</label><br>
+                <input type="checkbox" id="ajedrez" name="talleres" value="ajedrez">
+                <label for="ajedrez">Ajedrez</label><br>
+            </div><br>
+            <div>SEXO: 
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+            <label for="semestre">Seleccione su semestre</label>
+            <select name="semestre">
+                <option value="1">Primer semestre</option>
+                <option value="2">Segundo semestre</option>
+                <option value="3">Tercer semestre</option>
+                <option value="4">Cuarto semestre</option>
+                <option value="5">Quinto semestre</option>
+                <option value="6">Sexto semestre</option>
+                <option value="" selected="select"></option>
+            </select>
+            <label for="semestre">Seleccione su edad</label>
+            <select name="semestre">
+                <option value="14">14 años</option>
+                <option value="15">15 años</option>
+                <option value="16">16 años</option>
+                <option value="17">17 años</option>
+                <option value="18">18 años</option>
+                <option value="" selected="select"></option>
+            </select>
+            <div><br>
+                <input type="submit" name="submit" value="Enviar informacion">
+                <input type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
+    </section>
+</body>
+</html>
